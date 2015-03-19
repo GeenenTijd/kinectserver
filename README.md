@@ -4,79 +4,37 @@ C# websocket server for Kinect2 on port 8181
 
 # Kinect Modes
 
-0 = KinectMode_Mouse (Close hand is mouse down + mouse up)
+0 = None
 
-1 = KinectMode_Wheel (Steering wheel returns angle)
+1 = Idle
 
-2 = KinectMode_Vertical (SwipeUp, SwipeDown)
+2 = GestureMode - Sends back recognized gestures
 
-3 = KinectMode_Horizontal(SwipeLeft, SwipeRight)
+3 = MouseMode - Kinect controls your mouse
 
-4 = KinectMode_Alert (ClickLeft, ClickRight)
+4 = SteerMode - Returns steering angle
 
-5 = KinectMode_Category (SwipeLeft, SwipeRight and Press)
+# Gesture Modes
 
-6 = KinectMode_Detail (SwipeLeft, SwipeRight and Close)
+0 = None
 
-7 = KinectMode_FlappyBird (Flap, ClickRight)
+1 = HorizontalSwipe (SwipeLeft, SwipeRight)
 
-8 = KinectMode_FightingGame (PunchLeft, PunchRight, KickLeft, KickRight, Jump and Crouch)
+2 = VerticalSwipe (SwipeUp, SwipeDown)
 
-9 = KinectMode_JumpGame (Jump, ClickRight)
+3 = Alert (ClickLeft, ClickRight)
 
-10 = KinectMode_Fly (Fly)
+4 = Zoom
 
-11 = KinectMode_MouseManual (close hand is mouse down)
+5 = FlappyBird (Flap, ClickRight)
 
-12 = KinectMode_Debug (All)
+6 = FightingGame (PunchLeft, PunchRight, KickLeft, KickRight, Jump and Crouch)
 
-# Kinect Actions
+7 = JumpGame (Jump, ClickRight)
 
-0 = GestureType_None
+# Kinect Recognized Actions
 
-1 = GestureType_Flap
-
-2 = GestureType_SwipeLeft
-
-3 = GestureType_SwipeRight
-
-4 = GestureType_SwipeDownLeft
-
-5 = GestureType_SwipeUpLeft
-
-6 = GestureType_SwipeDownRight
-
-7 = GestureType_SwipeUpRight
-
-8 = GestureType_ZoomIn
-
-9 = GestureType_ZoomOut
-
-10 = GestureType_LeftClick
-
-11 = GestureType_RightClick
-
-12 = GestureType_PunchLeft
-
-13 = GestureType_PunchRight
-
-14 = GestureType_KickLeft
-
-15 = GestureType_KickRight
-
-16 = GestureType_Jump
-
-17 = GestureType_Crouch
-
-18 = GestureType_Hello
-
-19 = GestureType_Idle
-
-20 = GestureType_Wheel
-
-21 = GestureType_Fly
-
-22 = GestureType_Close
+JoinedHands, WaveRight, WaveLeft, Menu, SwipeLeft, SwipeRight, SwipeUp, SwipeDown, ZoomIn, ZoomOut, ClickLeftHand, ClickRightHand, Jump, Crouch, PunchLeft, PunchRight, KickLeft, KickRight
 
 # Javascript Connect
 
