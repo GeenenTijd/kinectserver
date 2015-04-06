@@ -1,3 +1,7 @@
+# DEPRECATED
+
+It doesn't work well to constantly update your server when a game you create needs a new feature. https://github.com/GlennGeenen/kinectbody just returns your body information so that you can do your gestures in javascript.
+
 # kinectserver
 
 C# websocket server for Kinect2 on port 8181
